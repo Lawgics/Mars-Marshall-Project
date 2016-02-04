@@ -1,4 +1,3 @@
-// alert("Fuck You")
 function constructThis(name, whoCares, whereAmIGoing) {
   this.name = name;
   this.whoCares = whoCares;
