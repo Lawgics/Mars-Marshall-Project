@@ -8,29 +8,50 @@ header {
   background-color: black;
 }
 
-* {
+a {
+  color: red;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
   background-color: black;
-  color: white;
-
-
+  opacity: .5;
 }
 
+/** {
+  background-color: black;
+  color: white;
+}*/
+
 main {
-  margin-top: 20%;
+  margin-top: 0%;
   /*margin-left: 50%;*/
   text-align: center;
-  background-color: darkred;
+  background-color: white;
+  opacity: .5;
+  padding: 20%;
 }
 
 body {
-  max-width: 100%;
+  max-width: 800%;
   margin: 0 auto;
-  padding: 50px 100px 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+  background-image: url(http://aniwallpapers.com/wp-content/uploads/2015/11/One-Punch-Man-All-Characters-HD-Wallpaper.jpg);
 }
 
 footer {
   postion: absolute;
-  margin-top: 20%;
-  justify-content: center;
+  margin-top: 0%;
+  padding: 10%
+  /*justify-content: center;*/
   display: flex;
+  text-align: center;
+  background-color: white;
+  opacity: .5;
+}
+
+#foot {
+  text-align: center;
 }
