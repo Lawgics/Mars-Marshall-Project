@@ -1,1 +1,1 @@
-alert("Fuck You")
+// alert("Fuck You")

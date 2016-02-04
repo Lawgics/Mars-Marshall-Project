@@ -1,3 +1,36 @@
 h1 {
   color: blue;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+* {
+  background-color: black;
+  color: white;
+
+
+}
+
+main {
+  margin-top: 20%;
+  /*margin-left: 50%;*/
+  text-align: center;
+  background-color: darkred;
+}
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px 100px 50px;
+}
+
+footer {
+  postion: absolute;
+  margin-top: 20%;
+  justify-content: center;
+  display: flex;
+}
